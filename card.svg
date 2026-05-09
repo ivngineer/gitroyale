@@ -1,0 +1,13 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- @font-face injected here at render time -->
+  </defs>
+  <rect width="400" height="300" fill="#15181D"/>
+  <text x="200" y="55"  text-anchor="middle" font-family="Itim" font-size="26" fill="#FFFFFF">{{player_name}}</text>
+  <text x="200" y="95"  text-anchor="middle" font-family="Itim" font-size="18" fill="#FFD700">{{trophies}} trophies</text>
+  <text x="200" y="130" text-anchor="middle" font-family="Itim" font-size="14" fill="#CBD5E6">Level {{exp_level}}</text>
+  <text x="200" y="160" text-anchor="middle" font-family="Itim" font-size="14" fill="#CBD5E6">{{clan_name}}</text>
+  <text x="200" y="190" text-anchor="middle" font-family="Itim" font-size="14" fill="#CBD5E6">Wins: {{wins}}</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Itim" font-size="14" fill="#CBD5E6">Cards: {{cards_found}}</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Itim" font-size="14" fill="#CBD5E6">Best: {{best_trophies}}</text>
+</svg>
